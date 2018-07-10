@@ -71,5 +71,15 @@ namespace Common.Utility.时间戳
 			}
 			return d;
 		}
+
+        /// <summary>
+        /// 创建时间戳
+        /// </summary>
+        /// <returns></returns>
+        public static long CreateTimestamp()
+        {
+            return (DateTime.Now.ToUniversalTime().Ticks - 621355968000000000) / 10000000;
+        }
+
     }
 }
