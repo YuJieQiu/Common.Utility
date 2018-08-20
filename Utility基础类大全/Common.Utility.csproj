@@ -120,6 +120,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dynamic\DynamicJson.cs" />
+    <Compile Include="Dynamic\DynamicXml.cs" />
     <Compile Include="其他\BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
